@@ -230,7 +230,6 @@ INSTALLED_APPS += ('trailway.taskapp.celery.CeleryConfig',)
 INSTALLED_APPS += ('kombu.transport.django',)
 BROKER_URL = env("CELERY_BROKER_URL", default='django://')
 
-
 # Location of root django.contrib.admin URL, use {% url 'admin:index' %}
 ADMIN_URL = r'^admin/'
 
