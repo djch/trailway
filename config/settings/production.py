@@ -116,6 +116,7 @@ DEFAULT_FROM_EMAIL = env('DJANGO_DEFAULT_FROM_EMAIL',
                          default='Dan from Trailway <alerts@getbusi.com>')
 EMAIL_BACKEND = 'postmark.django_backend.EmailBackend'
 POSTMARK_API_TOKEN = env('POSTMARK_API_TOKEN')
+POSTMARK_API_KEY = env('POSTMARK_API_TOKEN')
 POSTMARK_SENDER = env('POSTMARK_SMTP_SERVER')
 EMAIL_SUBJECT_PREFIX = env("DJANGO_EMAIL_SUBJECT_PREFIX", default='[Trailway] ')
 SERVER_EMAIL = env('DJANGO_SERVER_EMAIL', default=DEFAULT_FROM_EMAIL)
