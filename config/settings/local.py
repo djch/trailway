@@ -21,6 +21,13 @@ TEMPLATES[0]['OPTIONS']['debug'] = DEBUG
 # Note: This key only used for development and testing.
 SECRET_KEY = env("DJANGO_SECRET_KEY", default='pfnou#vw%e-2vb4am)vd022&k*7w-7y=&ut-^+spl)fzo7sxjf')
 
+# Output emails to the console when developing locally
+# ------------------------------------------------------------------------------
+EMAIL_HOST = 'localhost'
+EMAIL_PORT = 1025
+EMAIL_BACKEND = env('DJANGO_EMAIL_BACKEND',
+                    default='django.core.mail.backends.console.EmailBackend')
+
 # CACHING
 # ------------------------------------------------------------------------------
 CACHES = {
