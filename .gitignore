@@ -60,8 +60,5 @@ venv/
 # User-uploaded media
 trailway/media/
 
-# Hitch directory
-tests/.hitch
-
 # MailHog binary
 mailhog
