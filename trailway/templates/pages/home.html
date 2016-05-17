@@ -1,1 +1,13 @@
 {% extends "base.html" %}
+
+{% load i18n %}
+{% load crispy_forms_tags %}
+{% load account %}
+
+{% block title %}{% trans "Home" %}{% endblock title %}
+{% block content %}
+
+<h1>Welcome to Trailway</h1>
+<p class="lead">You can't really do anything except sign-up and manage your profile, but feel free to do that</p>
+
+{% endblock content %}
