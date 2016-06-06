@@ -1,11 +1,11 @@
 # Latest stable Django
-django==1.9.6
+django==1.9.7
 
 # Configuration
 django-environ==0.4.0
 
 # Forms
-django-braces==1.8.1
+django-braces==1.9.0
 django-crispy-forms==1.6.0
 django-floppyforms==1.6.2
 
@@ -30,7 +30,7 @@ django-autoslug==1.9.3
 pytz==2016.4
 
 # Redis support
-django-redis==4.4.2
+django-redis==4.4.3
 redis>=2.10.0
 
 # Payments
