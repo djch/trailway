@@ -3,7 +3,7 @@
 -r base.txt
 
 # WSGI Handler
-waitress==0.9.0
+waitress==1.0.0
 
 # Static and Media Storage
 boto==2.42.0
